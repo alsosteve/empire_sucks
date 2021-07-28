@@ -1,23 +1,80 @@
-body {
-    background-color: rgb(26, 24, 24);
-
-}
-h1 {
-    color: #d36d0e;
-    font-size: 50px;
-    text-shadow: 3px 2px 1px #db4237;
-    text-align: center;
-    padding-top: 3px;
-}
-
 header {
-    margin: 6px;
-    margin-bottom: 10px;
-    background-color: black;
+    background: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 1px rgb(149, 11, 177);
+    border: 10px ridge red;
+    padding: 10px;
+    margin: 5px;
+    animation: color-change 2s infinite;
+    font-size: 50px;
+  }
+  
+  @keyframes color-change {
+    0% { color: rgb(238, 255, 0); }
+    66% { color: red; }
+    100% { color: rgb(0, 0, 0); }
+  }
+  
+  nav {
+    background-color: orange;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 20px;
+    font-size: 24px;
+  }
+  
+  main {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+    min-height: 400px;
+  }
+  
+  h1 {
+    font-family: helvetica, sans-serif;
+    text-align: center;
+  }
+
+  h2 {
+      text-align: center;
+      color: red;
+      text-transform: uppercase;
+  }
+  
+  .disclaimer {
+    background-color: rgb(0, 0, 0);
+  }
+
+.dis {
+    text-align: center;
+    color: red;
 }
 
-nav {
-    button {
-        display: block; margin: auto;
-    }
-}
+  footer {
+    text-align: center;
+    background: lightgrey;
+    padding: 10px;
+  }
+  
+  body {
+    background: rgb(41, 41, 41);
+  }
+  
+  img {
+    margin: auto;
+    display: block;
+  }
+  
+ #terror {
+     float: left;
+ }
