@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(26, 24, 24);
+
+}
+h1 {
+    color: orangered;
+    text-shadow: 1px 1px 1px rgb(155, 155, 27);
+    font-size: 50px;
+}
