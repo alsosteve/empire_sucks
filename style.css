@@ -64,6 +64,8 @@ header {
     text-align: center;
     background: lightgrey;
     padding: 10px;
+    border: 1px solid red;
+     clear: both;
   }
   
   body {
@@ -77,4 +79,31 @@ header {
   
  #terror {
      float: left;
+     max-width: 500px;
  }
+
+  #cos {
+    margin: auto;
+    display: block;
+    max-width: 500px;
+  }
+
+  #r-s {
+    margin: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
+
+  #alderan {
+    margin: auto;
+    display: block;
+    max-width:400px;
+  }
+
+  .porg {
+    margin: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
