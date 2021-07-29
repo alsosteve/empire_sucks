@@ -17,6 +17,14 @@ header {
     100% { color: rgb(0, 0, 0); }
   }
   
+  @keyframes color-boss {
+    0% { color: rgb(238, 255, 0); }
+  25% { color: rgb(0, 255, 55); }
+  50% { color: rgb(0, 174, 255); }
+  75% { color: rgb(212, 0, 255); }
+  100% { color: red; }
+  }
+  
   nav {
     background-color: orange;
   }
@@ -40,9 +48,30 @@ header {
     min-height: 400px;
   }
   
-  h1 {
-    font-family: helvetica, sans-serif;
+  h3 {
+    background: rgb(0, 0, 0);
+    color: white;
     text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 1px rgb(255, 255, 255);
+    border: 10px ridge rgb(23, 247, 255);
+    padding: 10px;
+    margin: 5px;
+    animation: color-boss 2s infinite;
+    font-size: 50px;
+  }
+
+  h4 {
+    background: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 1px rgb(149, 11, 177);
+    border: 10px ridge red;
+    padding: 10px;
+    margin: 5px;
+    animation: color-change 2s infinite;
+    font-size: 50px;
   }
 
   h2 {
