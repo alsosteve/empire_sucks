@@ -79,13 +79,13 @@ header {
   
  #terror {
      float: left;
-     max-width: 500px;
+     max-width: 350px;
  }
 
   #cos {
     margin: auto;
     display: block;
-    max-width: 500px;
+    max-width: 350px;
   }
 
   #r-s {
@@ -98,7 +98,7 @@ header {
   #alderan {
     margin: auto;
     display: block;
-    max-width:400px;
+    max-width:250px;
   }
 
   .porg {
